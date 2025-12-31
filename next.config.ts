@@ -14,11 +14,7 @@ const nextConfig: NextConfig = {
   },
 
   // API route optimization
-  api: {
-    bodyParser: {
-      sizeLimit: '1mb',
-    },
-  },
+
 
   // Production optimizations
   compiler: {
