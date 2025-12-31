@@ -96,8 +96,14 @@ export default function ChatPage() {
       <div className="min-h-screen bg-[#111b21] flex items-center justify-center p-3 sm:p-4">
         <div className="w-full max-w-sm sm:max-w-md bg-[#222e35] rounded-lg shadow-xl p-6 sm:p-8 border border-gray-700">
           <div className="flex justify-center mb-6">
-            <div className="w-14 h-14 sm:w-16 sm:h-16  rounded-full flex items-center justify-center">
-              <Image src="/whatsapp.png" alt="WhatsApp Clone Logo" width={150} height={150} />
+            <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center overflow-hidden">
+              <Image
+                src="/whatsapp.png"
+                alt="WhatsApp Clone Logo"
+                width={56}
+                height={56}
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           <h1 className="text-[#e9edef] text-lg sm:text-xl font-semibold text-center mb-6 sm:mb-8">WhatsApp Clone</h1>
